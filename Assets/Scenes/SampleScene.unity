@@ -271,6 +271,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 356239274}
   speed: 12
+  jumpHeight: 3
+  groundCheck: {fileID: 1259227156}
+  gravity: -18.36
+  mask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,7 +380,7 @@ GameObject:
   - component: {fileID: 962268657}
   - component: {fileID: 962268656}
   - component: {fileID: 962268655}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
